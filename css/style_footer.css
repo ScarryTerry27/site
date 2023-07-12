@@ -1,0 +1,174 @@
+footer {
+    width: 1920px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.main_footer {
+    width: 1671px;
+    height: 425.61px;
+    margin: 0 auto;
+}
+
+.main_footer > .conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+}
+
+.main_footer>.conteiner>div {
+    position: relative;
+}
+
+.main_footer>.conteiner>:nth-child(1),
+.main_footer>.conteiner>:nth-child(2) {
+    width: 33%;
+}
+
+.main_footer>.conteiner>:nth-child(3),
+.main_footer>.conteiner>:nth-child(4) {
+    width: 15%;
+}
+
+.main_footer>.h2 {
+    font-weight: 400;
+    font-size: 3.75rem;
+    font-family: var(--first-font);
+    color: var(--second-color)
+}
+
+.main_footer>.conteiner>div>.h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    width: 500px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.main_footer>.conteiner>div>.number_tel {
+    position: absolute;
+    top: 70px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7E8693;
+}
+
+.hrefs {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.hrefs>a.ws {
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    top: 10px;
+    left: 35px;
+    color: #7E8693;
+}
+
+i.ws::before,
+i.vb::before,
+i.email::before {
+    width: 29px;
+    height: 29px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+i.ws::before {
+    content: url(../img/WhatsApp.png);
+}
+
+i.vb::before {
+    content: url(../img/Viber.png);
+}
+
+i.email::before {
+    content: url(../img/mailmail.png);
+}
+
+i.vb {
+    position: absolute;
+    top: 0px;
+    left: 130px;
+}
+
+a.vb {
+    position: absolute;
+    top: 10px;
+    left: 165px;
+    color: #7E8693;
+}
+
+i.email {
+    position: absolute;
+    top: 0px;
+    left: 240px;
+}
+
+a.email {
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    color: #7E8693;
+}
+
+.main_footer>.conteiner>div>div>.ads {
+   font-size: 1rem;
+   font-weight: 400;
+   color: #7E8693;
+}
+
+.main_footer>.conteiner>div>div>.h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    width: 500px;
+    height: 10px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.main_footer>.conteiner>:nth-child(2) {
+    height: 300px;
+
+}
+nav {
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav>div {
+    height: 35px;
+    width: 200px;
+}
+
+.main_footer>.conteiner>div>div>a,
+.main_footer>.conteiner>div>nav>div>a {
+    font-size: 1rem;
+   font-weight: 400;
+   color: #7E8693;
+}
+
+.main_footer>.conteiner>.cont3>div,
+.main_footer>.conteiner>.cont4>div {
+   margin-top: 30px; 
+}
+
+.under_footer>.conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.under_footer>.conteiner>div {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #7E8693;
+}

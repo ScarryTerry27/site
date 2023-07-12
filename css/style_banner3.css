@@ -1,0 +1,95 @@
+.banner3 {
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+    height: 475px;
+    border: solid 1px black;
+    margin-bottom: 50px;
+}
+
+.banner3>div{
+    position: absolute;
+}
+
+.banner3>.text{
+    bottom: 75px;
+    left: 300px;
+}
+
+.banner3>.heading {
+    top: 75px;
+    left: 300px;
+    z-index: 1;
+    color: var(--white-color);
+}
+
+.heading>.h2{
+    font-size: 2.75rem;
+    width: 564px;
+    height: 120px;
+    font-weight: 400;
+}
+
+.heading>p{
+    font-size: 1.25rem;
+    width: 400px;
+    height: 48px;
+    font-weight: 400;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-around;
+}
+select {
+    display: block;
+    width: 311px;
+    line-height: 60px;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    display: block;
+    width: 311px;
+    line-height: 60px;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+input[type="email"] {
+    display: block;
+    width: 311px;
+    line-height: 60px;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.panel>button {
+    width: 202px;
+    line-height: 58px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.banner3>.bg1 {
+    background-image: url(../img/banner3.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.panel>button{
+    background-color: var(--second-color);
+    border-radius: 7px;
+    border-color: var(--second-color);
+    color: var(--white-color);
+    transition: var(--transition-one);
+}

@@ -1,0 +1,95 @@
+.banner, .bg_ban  {
+    width: 1920px;
+    height:  670px;
+    margin: inherit;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    background-image: url(../img/image\ 25.png);
+}
+
+.bg_ban {
+    background-image: url(../img/shadow.png);
+}
+
+.cont_ban {
+    width: 1920px;
+    height: 670px;
+    margin: 0 auto;
+}
+
+.banner_subtitle{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    z-index: 1;
+    color: var(--white-color);
+    top: 218px;
+    font-size: 1.25rem;
+}
+
+.banner_subtitle>p {
+    position: relative;
+    right: 432px;
+}
+
+.banner>.text {
+    width: 500px;
+    height: auto;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white-color);
+    position: relative;
+    top: 200px;
+    left: 302px;
+    z-index: 1;
+}
+
+.banner_subtitle>.arrow1, .banner_subtitle>.arrow2 {
+    width: 25px;
+    height: 25px;
+    color: var(--first-color);
+    padding-left: 10px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 7px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    transition: var(--transition-one);
+}
+
+.banner_subtitle>.arrow1 {
+    right: 106px;
+    padding-left: 12px;
+    padding-right: 0px;
+}
+
+.banner_subtitle>.arrow2 {
+    left: 106px;
+    padding-right: 0px;
+}
+
+.banner_subtitle>.arrow1:hover, .banner_subtitle>.arrow2:hover,
+.necessity>.arrow1:hover, .necessity>.arrow2:hover{
+    transform: var(--transform-scale);
+}
+
+.banner>.bt{
+    position: relative;
+    top: 250px;
+    left: 303px;
+    z-index: 1;
+}
+
+.cont_ban2>div>button, 
+.banner>.bt>button {
+    border: none;
+    color: var(--white-color);
+    height: 55px;
+    width: 236.74px;
+    background-color: var(--second-color);
+    font-size: 1.125rem;
+    transition: var(--transition-one);
+}

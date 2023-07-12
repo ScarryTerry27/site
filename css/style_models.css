@@ -1,0 +1,129 @@
+.models {
+    width: 1920px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+.headers {
+    margin: 0 auto;
+    width: 1920px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.h1 {
+    width: 1920px;
+    height: 110px;
+    font-weight: 700;
+    font-size: 5.626rem;
+    color: #d7dce4ce;
+}
+
+.h2 {
+    margin: 40px auto;
+    width: 1920px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 2.125rem;
+}
+
+.h3 {
+    width: 1920px;
+    height: 25px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.h3>a{
+    margin-right: 30px;
+}
+
+.cont_models {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    font-size: 0.875rem;
+}
+
+.cont_models>div {
+    position: relative;
+    width: 418.09px;
+    height: 519.66px;
+    border: solid #B0BDD1 1px;
+    box-sizing: 1px 1px 1px #B0BDD1;
+    transition: var(--transition-one);
+}
+
+.cont_models>div>.bt_grey {
+    position: absolute;
+    width: 169.59px;
+    height: 38.97px;
+    border-radius: 5px;
+    font-weight: 500;
+    z-index: 1;
+    top: 30px;
+    left: 10px;
+    background-color: #EBEEF2;
+    transition: var(--transition-one);
+    border-color: #EBEEF2;
+}
+
+.cont_models>div>.bg {
+    position: absolute;
+    background-image: url(../img/models.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: 418.09px;
+    height: 432.26px;
+    top: 10px;
+}
+
+.cont_models>div>.bt_orange {
+    position: absolute;
+    width: 185.42px;
+    height: 51.97px;
+    border-radius: 5px;
+    border-color: var(--second-color);
+    z-index: 1;
+    bottom: 0px;
+    left: 10px;
+    background-color: var(--second-color);
+    transition: var(--transition-one);
+    font-weight: 500;
+    color: white;
+}
+
+.cont_models>div>.bt_grey2 {
+    position: absolute;
+    width: 185.42px;
+    height: 51.97px;
+    border-radius: 5px;
+    border-color: #EBEEF2;
+    z-index: 1;
+    bottom: 0px;
+    right: 10px;
+    background-color: #EBEEF2;
+    transition: var(--transition-one);
+    font-weight: 500;
+}
+
+.cont_models>div>.descr {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    z-index: 1;
+    font-size: 1.25rem;
+    font-weight: 500;
+    bottom: 130px;
+    left: 35px;
+}
+
+.cont_models>div>.descr>span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--second-color);
+}
+

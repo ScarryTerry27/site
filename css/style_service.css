@@ -1,0 +1,75 @@
+.service {
+    width: 1920px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service>div {
+    margin-top: 50px;
+    position: relative;
+    width: 521px;
+    height: 387px;
+    transition: var(--transition-one)
+}
+
+.service>div>div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service>div>button {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    height: 64px;
+    width: 285px;
+    border: none;
+    transition: var(--transition-one);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.service>div>.bg1 {
+    background-image: url(../img/stroiteli.png);
+}
+
+.service>div>.bg2 {
+    background-image: url(../img/instrumenti.jpg);
+}
+
+.service>div>.bg3 {
+    background-image: url(../img/lapki.jpg);
+}
+
+.recomend {
+    position: relative;
+    width: 1920px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.recomend>.h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.recomend>.bg {
+    height: 157px;
+    width: 1680px;
+    margin: 0 auto;
+    background-image: url(../img/recommend.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+}
+
+

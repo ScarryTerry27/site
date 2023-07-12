@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --first-color: #2b3648;
+    --second-color: #FF5D00;
+    --white-color: #fff;
+    --font-size: 16px;
+    --first-font: 'Roboto', sans-serif;
+    --second-font: 'Montserrat', sans-serif;
+    --transition-one: all 0.6s linear;
+    --transform-scale: scale(1.05, 1.05);
+}
+
+html {
+    font-size: var(--font-size);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--first-font);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 0 auto;
+    font-family: var(--second-font);
+}
+
+/*  верхняя шапка */
+.top_header {
+    height: 40px;
+    background-color: var(--first-color);
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.top_header>.conteiner {
+    width: 1920px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.top_header_location {
+    color: var(--white-color);
+    padding-top: 5px;
+    padding-left: 90px;
+}
+
+.top_header_location>p>i {
+    position:relative;
+    top: 2px;
+}
+/* нижняя шапка */
+
+/* общее */
+.main_header {
+    height: 116px;
+    border-bottom: solid 1px #777;
+    font-weight: 300;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.main_header>.conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+    margin: 0 auto;
+    height: 100%;
+    padding-left: 90px;
+}
+
+.main_header>.conteiner>div {
+    margin-top: 30px;
+}
+
+/* лого */
+.conteiner>.logo {
+    font-size: 2.8rem;
+    color: var(--second-color);
+    flex-basis: 5%;
+}
+
+/* менюшка */
+.conteiner>.main_menu {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--first-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--second-color);
+}
+
+.header_button>button {
+    width: 203px;
+    height: 43px;
+    text-align: center;
+    background-color:var(--first-color);
+    color: white;
+    border-radius: 10%;
+    transition: var(--transition-one);
+}
+
+button:hover {
+    transform: var(--transform-scale);
+}
+
+.conteiner>.pay_links, .conteiner>.acc {
+    flex-basis: 7%;
+}
+
+.pay_links>div>i {
+    position: relative;
+    top: 1px;
+    left: 2px;
+}
+
+.pay_links>div>i::before{
+    display: block;
+    margin-left: 5px;
+    animation: Circle 0.6s linear alternate infinite;
+}
+
+@keyframes Circle {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+.pay_links>.cards {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.cards>div {
+    position: relative;
+    height: 100%;
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cards>.mc {
+    background-image: url('../img/mc.png');
+    width: 25px;
+    height: 15px;
+}
+
+.cards>.vs {
+    background-image: url('../img/visa.png');
+    width: 30px;
+    height: 20px;   
+    top: 4px;
+    right: 4px;
+}
+
+.cards>.mir {
+    background-image: url('../img/mir.png');
+    width: 40px;
+    height: 20px;
+    top: 4px;
+}
+
+.acc>.mail {
+    width: 400px;
+    color: #7E8693;
+    font-style: italic;
+}
+
+.phone_num>div:hover {
+    width: 50%;
+    text-decoration: underline;
+}

@@ -1,0 +1,99 @@
+.necessity {
+    width: 1920px;
+    margin: 0 auto;
+    height: 600px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.necessity>.arrow1, .necessity>.arrow2{
+    position: absolute;
+    top: 250px;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    color: var(--first-color);
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    transition: var(--transition-one);
+    border-color: #B0BDD1;
+}
+
+
+.necessity>.arrow1{
+    left: 40px;
+}
+.necessity>.arrow2{
+    right: 40px;
+}
+
+.necessity>.flex_cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex_cont>div {
+    position: relative;
+    width: 523px;
+    height: 440px;
+    margin-top: 50px;
+    transition: var(--transition-one);
+}
+
+.necessity>.flex_cont>div:hover {
+    border-radius: 10px;
+}
+
+.flex_cont>div>button {
+    position: absolute;
+    width: 209.2px;
+    height: 47.07px;
+    background-color: var(--second-color);
+    color: var(--white-color);
+    bottom: 70px;
+    left: 25px;
+    z-index: 1;
+    border-color: var(--second-color);
+    transition: var(--transition-one);
+    border-radius: 7px;
+}
+
+.flex_cont>div>.text {
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.flex_cont>div>.bg1,
+.flex_cont>div>.bg2,
+.flex_cont>div>.bg3,
+.flex_cont>:nth-child(1)>:nth-child(2) {
+    position: absolute;
+    width: 523px;
+    height: 386.68px;
+    border-radius: 7px;
+    background-position: 0 0;
+    background-size: cover;
+
+}
+
+.flex_cont>div>.bg1 {
+    background-image: url(../img/metr.png);
+}
+
+.flex_cont>div>.bg2 {
+    background-image: url(../img/obrazec.png);
+}
+
+.flex_cont>div>.bg3 {
+    background-image: url(../img/maket.png);
+}
+
+.flex_cont>:nth-child(1)>:nth-child(2) {
+    background-image: url(../img/phone-pila.png);
+}
