@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+/* Общее */
 :root {
     --first-color: #2b3648;
     --second-color: #FF5D00;
@@ -29,7 +30,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: var(--second-font);
 }
 
-/*  верхняя шапка */
+/* Шапка */
 .top_header {
     height: 40px;
     background-color: var(--first-color);
@@ -53,9 +54,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     position:relative;
     top: 2px;
 }
-/* нижняя шапка */
 
-/* общее */
 .main_header {
     height: 116px;
     border-bottom: solid 1px #777;
@@ -77,14 +76,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 30px;
 }
 
-/* лого */
 .conteiner>.logo {
     font-size: 2.8rem;
     color: var(--second-color);
     flex-basis: 5%;
 }
 
-/* менюшка */
 .conteiner>.main_menu {
     flex-basis: 40%;
     display: flex;
@@ -92,7 +89,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     position: relative;
     top: 15px;
 }
-
+.pay_links>a {
+    display: block;
+}
 a {
     text-decoration: none;
     color: var(--first-color);
@@ -131,15 +130,6 @@ button:hover {
     display: block;
     margin-left: 5px;
     animation: Circle 0.6s linear alternate infinite;
-}
-
-@keyframes Circle {
-    from {
-        transform: scale(1, 1);
-    }
-    to {
-        transform: scale(1.2, 1.2);
-    }
 }
 
 .pay_links>.cards {

@@ -2,7 +2,7 @@
     height: 900px;
     width: 1920px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .advantages>.conteiner {
@@ -22,7 +22,9 @@
     border-radius: 1%;
     box-shadow: 1px 1px 2px #B0BDD1;
     transition: var(--transition-one);
+    background-size: cover;
 }
+
 .feedback>.arr1:hover,
 .feedback>.arr2:hover,
 .fdb>div:hover, 
@@ -41,72 +43,11 @@
     z-index: 1;
 }
 
-.advantages>.conteiner>div:nth-child(2n+1)>.bg1, 
-.advantages>.conteiner>div:nth-child(2n+1)>.bg2, 
-.advantages>.conteiner>div:nth-child(2n+1)>.bg3 {
-    position: absolute;
-    height: 251.1px;
-    width: 567.62px;
-    right: 0px;
-}
-
 .advantages>.conteiner>div:nth-child(2n)>.text {
     position: absolute;
     height: 251.1px;
     width: 567.62px;
     z-index: 1;
-}
-
-.advantages>.conteiner>div:nth-child(2n)>.bg1, 
-.advantages>.conteiner>div:nth-child(2n)>.bg2, 
-.advantages>.conteiner>div:nth-child(2n)>.bg3 {
-    position: absolute;
-    height: 251.1px;
-    width: 567.62px;
-    right: 0px;
-}
-
-
-.advantages>.conteiner>div>.bg1,
-.advantages>.conteiner>div>.bg2,
-.advantages>.conteiner>div>.bg3 {
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.advantages>.conteiner>.con1>.bg1 {
-    background-image: url(../img/1_1.png);
-}
-
-.advantages>.conteiner>.con2>.bg1 {
-    background-image: url(../img/1_2.png);
-}
-
-.advantages>.conteiner>.con3>.bg1 {
-    background-image: url(../img/2_1.png);
-}
-
-.advantages>.conteiner>.con4>.bg1 {
-    background-image: url(../img/2_2.png);
-}
-
-.advantages>.conteiner>.con5>.bg1 {
-    background-image: url(../img/3_1.png);
-}
-
-.advantages>.conteiner>.con6>.bg1 {
-    background-image: url(../img/3_2.png);
-}
-
-.advantages>.conteiner>div>.bg2 {
-    background-image: url(../img/image\ fon.png);
-    border-right: var(--white-color) 1px solid;
-}
-
-.advantages>.conteiner>div>.bg3 {
-    background-image: url(../img/image\ fon2.png);
-    border-right: var(--white-color) 1px solid;
 }
 
 .advantages>.conteiner>div>.text>div {
